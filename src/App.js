@@ -94,7 +94,7 @@ function App() {
   };
 
   let handleremove = (item) => {
-    let indexs = items.some((obj) => obj.id == item.id);
+    let indexs = items.some((obj) => obj.id === item.id);
     let newcart = items.splice(indexs, 1);
     setitems([...newcart]);
     settotal(totals - item.price);
