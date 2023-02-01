@@ -133,10 +133,10 @@ function App() {
                 <a
                   className="nav-link dropdown-toggle"
                   id="navbarDropdown"
-                  href="#"
+                  href="http://localhost:3000/#"
                   role="button"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false"
+                  aria-expanded="true"
                 >
                   Shop
                 </a>
